@@ -133,6 +133,15 @@ class RecipeCard extends HTMLElement {
     else if (data.rating == 4){
       var ratingImg = './assets/images/icons/4-star.svg';
     }
+    else if (data.rating == 3){
+      var ratingImg = './assets/images/icons/3-star.svg';
+    }
+    else if (data.rating == 2){
+      var ratingImg = './assets/images/icons/2-star.svg';
+    }
+    else if (data.rating == 1){
+      var ratingImg = './assets/images/icons/1-star.svg';
+    }
     else {
       var ratingImg = './assets/images/icons/0-star.svg';
     }
